@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
   def answer
     @question = params[:question]
 
-    if @question == "i am going to work right now!"
+    if @question == "I am going to work"
       @message = "Great!"
     elsif @question == "test?"
       @message = "Silly question, get dressed and go to work!"
